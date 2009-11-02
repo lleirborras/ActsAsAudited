@@ -2,7 +2,7 @@ ActsAsAudited
 =============
 
 Stores who made the last change on a model.
-Model must have a user_id or similar.
+Model must have a user_id attribute or similar.
 
 Configuration options
 =====================

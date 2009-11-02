@@ -1,13 +1,21 @@
 ActsAsAudited
 =============
 
-Introduction goes here.
+Stores who made the last change on a model.
+Model must have a user_id or similar.
+
+Configuration options
+=====================
+{:user => "user", :user_id => "user_id", :user_class => "User", :current_user => "current_user"}
 
 
 Example
 =======
 
-Example goes here.
+class Node < ActiveRecord::Base                                                 
+  acts_as_audited
+end
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+
+Copyright (c) 2009 [Lleïr Borràs i Metje <memtest AT gmail DOT com>], released under the MIT license
